@@ -1,19 +1,19 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import CSS from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={CSS.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>nucliweb</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>nucliweb</h1>
+      <main className={CSS.main}>
+        <h1 className={CSS.title}>nucliweb</h1>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={CSS.footer}>
         <a
           href="https://twitter.com/nucliweb"
           target="_blank"
